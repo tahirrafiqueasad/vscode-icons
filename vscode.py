@@ -1,7 +1,7 @@
 """ 
 Author:		 Muhammad Tahir Rafique
 Date:		 2023-02-27 12:26:11
-Project:	 Explorer
+Project:	 vscode-icons
 Description: Provide function to use the vscode icons.
 """
 

@@ -32,21 +32,28 @@ vsi = VSCodeIcons()
 # Getting file path
 file_name = 'image.png'
 file_icon_path = vsi.findFileIcon(file_name)
-print(f'File Icon: {file_icon_path}')
+print(f'File Icon:\t {file_icon_path}')
 
 # Getting directory path
 dir_name = 'Documents'
 dir_icon_path = vsi.findDirectoryIcon(dir_name)
-print(f'Directory Icon: {dir_icon_path}')
+print(f'Directory Icon:\t {dir_icon_path}')
 ```
 
 #### Output
 
 ```bash
-File Icon: vscode_icons/icons/file_type_image.svg
-Directory Icon: vscode_icons/icons/default_folder.svg
+File Icon:       vscode_icons/icons/file_type_image.svg
+Directory Icon:  vscode_icons/icons/default_folder.svg
 ```
 
 ## Author
 
 **Tahir Rafique**
+
+## Releases
+
+| Date      | Version | Summary       |
+| --------- | ------- | ------------- |
+| 15-Jun-23 | v1.0.0  | Initial build |
+
